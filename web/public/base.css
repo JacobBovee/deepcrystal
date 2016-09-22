@@ -1,0 +1,28 @@
+html, body, #app  {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto';
+  flex-flow: row;
+  cursor: default !important;
+}
+
+.zip-file {
+  z-index: 999;
+}
+
+select {
+  outline: none;
+}
+input[type=text], input[type=password] {
+  outline: none;
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder  {
+  color: rgba(255, 255, 255, 0.7);
+}
+input {
+  cursor: default;
+}

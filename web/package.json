@@ -1,0 +1,36 @@
+{
+  "main": "index.js",
+  "name": "Deep Crystal",
+  "author": "Jacob Bovee",
+  "private": true,
+  "electronOptions": {
+    "width": "400",
+    "height": "700",
+    "titleBarStyle": "hidden-inset",
+    "minWidth": "400",
+    "minHeight": "400",
+    "backgroundColor": "rgba(0, 0, 0, 0.5)"
+  },
+  "denodeOptions": [
+    "DENODE_INSECURE"
+  ],
+  "dependencies": {
+    "auth0-js": "^7.2.0",
+    "chroma-js": "^1.2.1",
+    "data": "^0.6.1",
+    "detect-browser": "^1.4.0",
+    "disposable-event": "^1.0.1",
+    "gloss": "^4.2.3",
+    "loaders.css": "^0.1.2",
+    "lodash": "^4.13.1",
+    "mobx-react": "^3.5.6",
+    "motion-style": "^3.2.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-loaders": "^2.1.1",
+    "react-router": "^2.6.0",
+    "rest": "^2.0.0",
+    "sb-event-kit": "^2.0.0"
+  },
+  "devDependencies": {}
+}
